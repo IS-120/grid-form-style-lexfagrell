@@ -61,14 +61,12 @@
       <section>
         <h2>Contact information</h2>
         <p>
-          <label for="name"> Name
+          <label for="name"> Name:
           </label>
           <input type="text" id="name" name="username" required />
         </p>
         <p>
-          <label for="email">
-            <span>E-mail: </span>
-            <strong><span aria-label="required">*</span></strong>
+          <label for="email"> E-mail:
           </label>
           <input id="email" type="email" id="mail" name="usermail" required />
         </p>
@@ -77,21 +75,18 @@
             <legend>Select Your Interest</legend>
             <ul class="list">
               <li>
-                <label for="title_1">
-                  <input type="radio" id="title_1" name="title" value="K" />
-                  Recipes
+                <input type="radio" id="recipes" name="title" value="recipes" checked />
+                <label for="recipes">Recipes
                 </label>
               </li>
               <li>
-                <label for="title_2">
-                  <input type="radio" id="title_2" name="title" value="Q" />
-                  Grocery Lists
+                <input type="radio" id="grocery" name="title" value="grocery" checked />
+                <label for="grocery">Grocery Lists
                 </label>
               </li>
               <li>
-                <label for="title_3">
-                  <input type="radio" id="title_3" name="title" value="J" />
-                  Other
+                <input type="radio" id="other" name="title" value="other" checked />
+                <label for="other">Other
                 </label>
               </li>
             </ul>
