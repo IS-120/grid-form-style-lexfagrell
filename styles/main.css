@@ -132,7 +132,7 @@ header ul {
   transition: transform 300ms ease;
 }
 
-.close ul {
+.close .menu {
   padding-top: 12%;
   height: 100%;
   opacity: 1;
@@ -363,6 +363,7 @@ a[href]:hover {
 }
 .list{
   list-style-type: none;
+  margin: 0;
 }
 @media (min-width: 401px) {
   .group {
