@@ -365,6 +365,22 @@ a[href]:hover {
   list-style-type: none;
   margin: 0;
 }
+.background{
+  background: linear-gradient(-45deg, #556b2f, #4987e8);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
 @media (min-width: 401px) {
   .group {
     flex-direction: row;
